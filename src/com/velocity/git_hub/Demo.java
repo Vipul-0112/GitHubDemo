@@ -13,6 +13,9 @@ public class Demo {
 		list.add("prathamesh");
 		list.add("samiksha");
 
-		System.out.println(list);
+
+		for (String s : list) {
+			System.out.println(s);
+		}
 	}
 }
